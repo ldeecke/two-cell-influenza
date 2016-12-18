@@ -6,7 +6,7 @@ Required: CMake (2.8.9) and boost/program_options (0.24.1).
 
 ![symmetric kernel](sk.png)
 
-The following code is the building block that is used to study the influenza dynamics in a two-cell model, mathematically realized via a stochastic system of differential equations. The systems parametrization (constituted from 29 unique parameters) is passed to the program via a config file and allows the user to study the implement pharmaceutical treatment schemes that are used to fight off influenza, amantadines and neuraminidase inhibitors.
+The following code is the building block that is used to study the influenza dynamics in a two-cell model, mathematically realized via a stochastic system of differential equations. The systems parametrization (constituted from 29 unique parameters) is passed to the program via a user-editable config file that allows the study of pharmaceutical treatment schemes commonly used to fight off influenza inections, amantadines and neuraminidase inhibitors.
 
 Usage:
 
