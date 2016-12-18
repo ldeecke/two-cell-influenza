@@ -183,7 +183,7 @@ inline double instance::efficacy(int t, drug_type_t drug_type)
     else if (drug_type == drug_type_t::NAI_WT) { return n_wt_efficacy_[t]; }
     else if (drug_type == drug_type_t::ADM_MU) { return m_mu_efficacy_[t]; }
     else if (drug_type == drug_type_t::NAI_MU) { return n_mu_efficacy_[t]; }
-    else { return -1.0; } // TODO: replace with custom throw(..)
+    else { return -1.0; }
 }
 
 
