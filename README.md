@@ -11,6 +11,7 @@ The following code is the building block that is used to study the influenza dyn
 Usage:
 
 1. Create and navigate into a directory `build`.
-2. Execute CMake via `cmake ..`. Call `make` when completed.
-3. Navigate back to the root directory, edit `config.ini` and execute `build/influenza`.
-4. Viral titer curves are written into `out.dat`.
+2. Execute CMake via `cmake ..`.
+3. Now `make`.
+4. Navigate back to the root directory, edit `config.ini` and execute `build/influenza`.
+5. Viral titer curves are written into `out.dat`.
