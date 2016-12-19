@@ -10,6 +10,9 @@ int main(int argc, char *argv[]){
     std::string config_file_name = "config.ini";
     std::string observation_file_name = "out.dat";
 
+    if (argc >= 2) { config_file_name = argv[1]; }
+    if (argc >= 3) { observation_file_name = argv[2]; }
+
     config config(config_file_name);
     instance instance(config);
 
