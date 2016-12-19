@@ -3,7 +3,6 @@
 #ifndef instance_h
 #define instance_h
 
-#include <random>
 #include <vector>
 
 #include "config.h"
