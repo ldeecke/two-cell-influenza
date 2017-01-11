@@ -50,8 +50,6 @@ public:
     const double &D_0() const { return D_0_; }
     const double &V_0() const { return V_0_; }
 
-
-
 protected:
     void parse(const std::string &file_name);
     boost::program_options::options_description desc_;
