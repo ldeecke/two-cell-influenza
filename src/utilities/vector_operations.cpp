@@ -16,7 +16,7 @@ std::vector<double> periodic_efficacy(int total_dpi, int steps_per_dpi, double t
         {
             efficacy.push_back(efficacy_on);
 
-            if (switch_count % (int)(t_on * steps_per_dpi) == 0)
+            if (switch_count % static_cast<int>(t_on * steps_per_dpi) == 0)
             {
                 b = false,
                 switch_count = 0;
@@ -26,7 +26,7 @@ std::vector<double> periodic_efficacy(int total_dpi, int steps_per_dpi, double t
         {
             efficacy.push_back(efficacy_off);
 
-            if (switch_count % (int)(t_off * steps_per_dpi) == 0)
+            if (switch_count % static_cast<int>(t_off * steps_per_dpi) == 0)
             {
                 b = true;
                 switch_count = 0;
