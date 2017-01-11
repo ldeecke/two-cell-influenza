@@ -151,29 +151,6 @@ inline instance::instance(const config& config)
 
 inline instance::~instance()
 {
-    T_d_.clear();
-    T_s_.clear();
-
-    E_d_wt_.clear();
-    E_d_mu_.clear();
-    E_s_wt_.clear();
-    E_s_mu_.clear();
-
-    I_d_wt_.clear();
-    I_d_mu_.clear();
-    I_s_wt_.clear();
-    I_s_mu_.clear();
-
-    D_d_.clear();
-    D_s_.clear();
-
-    V_wt_.clear();
-    V_mu_.clear();
-
-    m_wt_efficacy_.clear();
-    n_wt_efficacy_.clear();
-    m_mu_efficacy_.clear();
-    n_mu_efficacy_.clear();
 }
 
 inline double instance::efficacy(int t, drug_type_t drug_type)
