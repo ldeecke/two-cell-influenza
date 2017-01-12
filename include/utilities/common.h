@@ -12,8 +12,11 @@ namespace utilities {
 const char default_delimiter = ',';
 
 template<typename T>
-void write_result(const std::vector<T>& a, const std::vector<T>& b, std::ofstream& stream)
+void write_result(const std::vector<T>& a, const std::vector<T>& b, const char* header, std::ofstream& stream)
 {
+    stream << header;
+    stream << std::endl;
+
     for (size_t i = 0; i < a.size(); ++i)
     {
         stream << std::to_string(a[i]);

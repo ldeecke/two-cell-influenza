@@ -26,9 +26,7 @@ int main(int argc, char *argv[]){
         return -1;
     }
 
-    observation_file << "V_wt,V_mu" << std::endl;
-    utilities::write_result(instance.V_wt(), instance.V_mu(), observation_file);
-
+    utilities::write_result(instance.V_wt(), instance.V_mu(), "V_wt,V_mu", observation_file);
     observation_file.close();
 
     return 0;
