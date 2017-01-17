@@ -26,10 +26,10 @@ public:
 
     void step_forward();
 
-    std::vector<double> V_wt()
+    std::vector<double>& V_wt()
     { return V_wt_; }
 
-    std::vector<double> V_mu()
+    std::vector<double>& V_mu()
     { return V_mu_; }
 
     double efficacy(int t, drug_type_t drug_type);
@@ -90,7 +90,7 @@ private:
     std::vector<double> n_mu_efficacy_;
 };
 
-inline instance::instance(const config& config)
+instance::instance(const config& config)
         : rm_(),
           t_(-1)
 {
@@ -149,11 +149,11 @@ inline instance::instance(const config& config)
                                                         config.n_mu(), 0.0);
 }
 
-inline instance::~instance()
+instance::~instance()
 {
 }
 
-inline double instance::efficacy(int t, drug_type_t drug_type)
+double instance::efficacy(int t, drug_type_t drug_type)
 {
     if (drug_type == drug_type_t::ADM_WT) { return m_wt_efficacy_[t]; }
     else if (drug_type == drug_type_t::NAI_WT) { return n_wt_efficacy_[t]; }
@@ -163,7 +163,7 @@ inline double instance::efficacy(int t, drug_type_t drug_type)
 }
 
 
-inline void instance::step_forward()
+void instance::step_forward()
 {
     t_ += 1;
 
