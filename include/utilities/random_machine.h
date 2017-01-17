@@ -20,13 +20,13 @@ private:
     std::uniform_real_distribution<> uniform_distribution;
 };
 
-inline random_machine::random_machine()
+random_machine::random_machine()
     : number_generator(random_device()),
       uniform_distribution(0., 1.)
 {
 }
 
-inline double random_machine::discretize(double input)
+double random_machine::discretize(double input)
 {
     if (input <= 0.0) { return 0.0; }
     else
