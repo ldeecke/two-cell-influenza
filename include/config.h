@@ -52,6 +52,8 @@ public:
 
 protected:
     void parse(const std::string &file_name);
+    void check();
+
     boost::program_options::options_description desc_;
 
 private:
@@ -74,8 +76,8 @@ private:
     double l_;
     double p_fit_;
     double b_fit_;
-    double b_wt_;
     double p_wt_;
+    double b_wt_;
     double t_E_;
     double t_I_;
     double c_;
