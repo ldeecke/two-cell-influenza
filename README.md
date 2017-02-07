@@ -6,7 +6,7 @@ Required: CMake (2.8.9) and boost/program_options (0.24.1).
 
 ![symmetric kernel](sk.png)
 
-The following code provides the building block that is used to study the dynamics in an influenza A infection. A two-cell model (that is mathematically realized through a stochastic system of differential equations) is parametrized via 29 unique parameters that are passed to the program (at runtime) via a user-editable config file. This program allows researchers to simulate pharmaceutical treatment schemes commonly used in the curing of an influenza infection in an easy manner and at short execution times.
+The following code provides the building block that is used to study the dynamics in an influenza A infection. A two-cell model (that is mathematically realized through a stochastic system of differential equations) is parametrized via 29 unique parameters that are passed to the program (at runtime) in a user-editable config file. The program allows researchers to simulate pharmaceutical treatment schemes commonly used in the curing of an influenza infection in an easy manner and at short execution times.
 
 Usage:
 
