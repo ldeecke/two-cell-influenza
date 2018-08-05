@@ -10,7 +10,7 @@
 
 class config_error : public std::runtime_error {
 public:
-    config_error(const std::string &msg) : runtime_error("heom::config_error: " + msg) {};
+    config_error(const std::string &msg) : runtime_error("config_error: " + msg) {};
 };
 
 class config {
