@@ -1,4 +1,6 @@
-© (2014-2016) L. Deecke (*ldeecke@gmail.com*) and H. Dobrovolny (*h.dobrovolny@tcu.edu*)
+© (2014-2018) L. Deecke (*ldeecke@gmail.com*) and H. Dobrovolny (*h.dobrovolny@tcu.edu*).
+
+Published in *"Intermittent Treatment of Influenza"*, Journal of Theoretical Biology (2018).
 
 Required: CMake (2.8.9) and boost/program_options (0.24.1).
 
