@@ -1,4 +1,4 @@
-© (2014-2018) L. Deecke (*ldeecke@gmail.com*) and H. Dobrovolny (*h.dobrovolny@tcu.edu*).
+© (2014-2018) L. Deecke and H. Dobrovolny.
 
 Published in *"Intermittent Treatment of Influenza"*, Journal of Theoretical Biology (2018).
 
